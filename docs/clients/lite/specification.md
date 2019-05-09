@@ -27,7 +27,7 @@ The proof has two types: existance proof and absence proof. If the query key exi
 store, then it returns key-value and its existance proof. On the other hand, if the key doesn't
 exist, then it only returns absence proof which can demostrate the key definitely doesn't exist.
 
-### IAVL Existance Proof
+### IAVL Existence Proof
 
 ```go
 type CommitID struct {
